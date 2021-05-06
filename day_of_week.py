@@ -1,17 +1,17 @@
 day = int(input('Day (1-7)? '))
-if day-1 == 0:
+if day == 1:
     print("Sunday")
-elif day-1 == 1:
+elif day == 2:
     print("Monday")
-elif day-1 == 2:
+elif day == 3:
     print("Tuesday")
-elif day-1 == 3:
+elif day == 4:
     print("Humpday")
-elif day-1 == 4:
+elif day == 5:
     print("Thursday")
-elif day-1 == 5:
+elif day == 6:
     print("TGIFriday")
-elif day-1 == 6:
+elif day == 7:
     print("Saturday")
 else:
-    print("Not a valid day number")
+    print("How many days are in a week again?")
